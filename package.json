@@ -1,0 +1,21 @@
+{
+    "name": "node-unoconv"
+  , "description": "Node.js web document converter using unoconv"
+  , "version": "0.0.1"
+  , "author": "Dariusz Pawlak <pawlakdp@gmail.com>"
+  , "keywords": ["nodejs", "unoconv", "libreoffice", "openoffice", "converter", "document"]
+  , "dependencies": {
+	"formidable": "1.0.14"
+        , "mime-magic": "5.14.0"
+    }
+  , "scripts": { "test": "make test" }
+  , "main": "./app.js"
+  , "engines": { "node": ">=0.8.0" }
+  , "bugs": {
+        "url":"https://github.com/pwldp/node-unoconv/issues/new"
+    }
+  , "repository": {
+        "type": "git"
+      , "url": "git://github.com/pwldp/node-unoconv.git"
+    }
+}
